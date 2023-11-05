@@ -1,0 +1,20 @@
+﻿  Hull.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5186,21): error C2676: binary '==': 'Edge' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5221): message : see reference to function template instantiation '_InIt std::_Find_unchecked1<_InIt,_Ty>(_InIt,const _InIt,const _Ty &,std::false_type)' being compiled
+          with
+          [
+              _InIt=Edge *,
+              _Ty=Point
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(5227): message : see reference to function template instantiation '_InIt std::_Find_unchecked<Edge*,_Ty>(const _InIt,const _InIt,const _Ty &)' being compiled
+          with
+          [
+              _InIt=Edge *,
+              _Ty=Point
+          ]
+C:\Users\tharu\source\repos\SFMLGraphics\Hull.cpp(96): message : see reference to function template instantiation '_InIt std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,Point>(_InIt,const _InIt,const Point &)' being compiled
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Edge>>>,
+              _Ty=Edge
+          ]

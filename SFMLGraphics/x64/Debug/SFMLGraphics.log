@@ -1,0 +1,3 @@
+﻿  Hull.cpp
+C:\Users\tharu\source\repos\SFMLGraphics\Hull.cpp(126,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  SFMLGraphics.vcxproj -> C:\Users\tharu\source\repos\SFMLGraphics\x64\Debug\SFMLGraphics.exe

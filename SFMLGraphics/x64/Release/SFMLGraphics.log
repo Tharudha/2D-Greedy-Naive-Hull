@@ -1,0 +1,2 @@
+﻿  Hull.cpp
+C:\Users\tharu\source\repos\SFMLGraphics\Hull.cpp(1,10): fatal error C1083: Cannot open include file: 'opencv.hpp': No such file or directory
